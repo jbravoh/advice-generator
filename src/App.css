@@ -81,17 +81,17 @@ body {
   box-shadow: 0px 0px 30px 10px var( --primary-neon-green);
 }
 
-@media screen and (min-width: 376px ) {
+@media screen and (min-width: 481px ) {
   .mobile-divider {
     display: none;
   }
 }
 
 
-@media screen and (max-width: 375px ) {
+@media screen and (max-width: 480px ) {
 .container {
-  height: 260px;
-  width: 260px;
+  height: 340px;
+  width: 340px;
   position: absolute;
   margin: auto;
   top: 0;
@@ -101,7 +101,6 @@ body {
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   align-items: center;
   background-color: var(  --neutral-dark-grayish-blue);
   border-radius: 20px;
@@ -117,7 +116,7 @@ body {
 
 
 .advice {
-  font-size: 18px;
+  font-size: 28px;
   text-align: center;
   color: var( --primary-light-cyan);
   margin-bottom: 2rem;
