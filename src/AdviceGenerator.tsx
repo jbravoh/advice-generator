@@ -33,19 +33,16 @@ const AdviceGenerator = () => {
   };
 
   return (
-    <>
-      <div className="container">
-        <h1 className="advice-number">ADVICE #{advice?.slip.id}</h1>
-        <p className="advice">"{advice?.slip.advice}"</p>
-        <img className="desktop-divider" src={desktopDivider} alt="" />
-        <img className="mobile-divider" src={mobileDivider} alt="" />
+    <main className="container">
+      <h1 className="advice-number">ADVICE #{advice?.slip.id}</h1>
+      <p className="advice">"{advice?.slip.advice}"</p>
+      <img className="desktop-divider" src={desktopDivider} alt="" />
+      <img className="mobile-divider" src={mobileDivider} alt="" />
 
-
-        <div className="dice-container flex-column-2">
-          <img className="dice" src={dice} alt="" onClick={() => getAdvice()} />
-        </div>
+      <div className="dice-container flex-column-2">
+        <img className="dice" src={dice} alt="" onClick={() => getAdvice()} />
       </div>
-    </>
+    </main>
   );
 };
 
