@@ -89,58 +89,58 @@ body {
 
 
 @media screen and (max-width: 480px ) {
-.container {
-  height: 340px;
-  width: 340px;
-  position: absolute;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: var(  --neutral-dark-grayish-blue);
-  border-radius: 20px;
-}
+  .container {
+    height: 340px;
+    width: 340px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(  --neutral-dark-grayish-blue);
+    border-radius: 20px;
+  }
 
-.advice-number {
-  font-size: 0.8rem;
-  text-align: center;
-  margin: 1.5rem 0;
-  color: var( --primary-neon-green);
-  letter-spacing: 5px;
-}
+  .advice-number {
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 1.5rem 0;
+    color: var( --primary-neon-green);
+    letter-spacing: 5px;
+  }
 
 
-.advice {
-  font-size: 28px;
-  text-align: center;
-  color: var( --primary-light-cyan);
-  margin-bottom: 2rem;
-  font-weight: 800;
-}
+  .advice {
+    font-size: 28px;
+    text-align: center;
+    color: var( --primary-light-cyan);
+    margin-bottom: 2rem;
+    font-weight: 800;
+  }
 
-.desktop-divider {
-  display: none;
-}
+  .desktop-divider {
+    display: none;
+  }
 
-.dice-container {
-  border-radius: 50%;
-  background-color: var( --primary-neon-green);
-  width: 5rem;
-  height: 5rem;
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  transition: .2s;
-  position: absolute;
-  bottom: -40px
- 
+  .dice-container {
+    border-radius: 50%;
+    background-color: var( --primary-neon-green);
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    transition: .2s;
+    position: absolute;
+    bottom: -40px
+  
 
-}
+  }
 
 
 }
