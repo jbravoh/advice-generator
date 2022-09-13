@@ -20,7 +20,8 @@ const AdviceGenerator = () => {
   const getAdvice = () => {
     const url = "https://api.adviceslip.com/advice";
 
-    fetch(url)
+    // add cache: "no-cache" so firefox users can see the advice change
+    fetch(url, { cache: "no-cache" })
       .then((response) => {
         console.log(response);
         if (!response.ok) {
